@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <tic:\Users\abhve\OneDrive\Desktop\BiZarlinkttle>Wheather APP</tittle>
+    <title>Wheather APP</title>
     <link rel="stylesheet" href="style.css">
-    <script src ="js.js"></script>
+    
 </head>
 
 
 
 <body>
-
-
-
-
-    <nav class = "Menunbar">
-        <ul>
-            <a>Home</a><a>Services</a>
-            <a>Contact</a>
-            <a>About Us</a>
-        </ul>
-    </nav>
-
-
-    <main class="main-contaner">
-
-    </main>
-
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button id="searchButton">Search</button>
+        <div class="weather-info">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>

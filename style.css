@@ -2,7 +2,7 @@
     margin: 0px;
     padding:0;
     box-sizing: border-box;
-    color: white;
+    color: rgb(21, 0, 0);
 
 }
 body {
@@ -12,7 +12,7 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
 }
-body::before{
+/* body::before{
     content:"";
     position: absolute;
     width: 100%;
@@ -22,11 +22,11 @@ body::before{
 
 
 
-}
-.mainmain-contaner{
+} */
+/* .mainmain-contaner{
 
     border: solid;
     width: 300px;
     height: 496px;
     z-index:1;
-}
+} */
